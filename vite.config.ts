@@ -86,7 +86,7 @@ export default defineConfig(({ mode }) => {
       },
     },
     optimizeDeps: {
-      include: ['ethers', 'viem', 'wagmi', 'three', '@reown/appkit', '@reown/appkit-wagmi'],
+      include: ['ethers', 'viem', 'wagmi', 'three', '@reown/appkit', '@reown/appkit-adapter-wagmi'],
     },
   };
 });
