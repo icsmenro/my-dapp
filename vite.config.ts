@@ -89,4 +89,8 @@ export default defineConfig(({ mode }) => {
       include: ['ethers', 'viem', 'wagmi', 'three', '@reown/appkit', '@reown/appkit-adapter-wagmi'],
     },
   };
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 0ec166a (WIP: save before rebase)
