@@ -65,7 +65,7 @@ export default defineConfig(({ mode }) => {
             vendor: ['react', 'react-dom', 'ethers', 'viem', 'wagmi', '@tanstack/react-query'],
             three: ['three'],
             reactThree: ['@react-three/fiber', '@react-three/drei'],
-            reown: ['@reown/appkit', '@reown/appkit-wagmi'],
+            reown: ['@reown/appkit', '@reown/appkit-adapter-wagmi'],
           },
         },
       },
