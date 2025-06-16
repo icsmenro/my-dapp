@@ -5,7 +5,7 @@ import { useAppKit } from '@reown/appkit/react';
 import { ethers } from 'ethers';
 import DOMPurify from 'dompurify';
 import { Address, isAddress } from 'viem';
-import GreenFiABI from '@artifacts/contracts/GreenFi.sol/GreenFi.json';
+import GreenFiABI from '@artifacts/contracts/GreenFI.sol/GreenFi.json';
 import WEEDLABI from '@artifacts/contracts/WEEDL.sol/WEEDL.json';
 import './styles.css';
 import { lazy, Suspense } from 'react';
