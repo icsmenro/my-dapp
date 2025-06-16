@@ -4,7 +4,7 @@
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
-    "moduleResolution": "bundler", // Changed from 'node' or other to 'bundler'
+    "moduleResolution": "bundler",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowImportingTsExtensions": true,
@@ -18,9 +18,16 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@artifacts/*": ["artifacts/*"]
     }
   },
-  "include": ["src", "vite.config.ts"],
+  "include": [
+    "src",
+    "artifacts",
+    "vite.config.ts",
+    "scripts/**/*.ts",
+    "types/**/*.d.ts"
+  ],
   "exclude": ["node_modules", "dist"]
 }
